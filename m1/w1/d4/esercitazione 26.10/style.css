@@ -1,0 +1,29 @@
+.rosso {
+    color:red;
+}
+
+#maiuscolo {
+    text-transform: uppercase;
+}
+
+.grigio {
+    color: grey;
+}
+
+
+.verde {
+    color: rgb(29, 149, 151);
+    background-color: rgb(249, 234, 146);
+}
+
+#ridimensiona {
+    height: 300px;
+}
+
+#first-font {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#second-font {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
