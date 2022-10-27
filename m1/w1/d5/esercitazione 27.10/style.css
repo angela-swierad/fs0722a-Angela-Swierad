@@ -1,0 +1,78 @@
+body {
+    margin-left: 35%;
+    margin-right: 35%;
+    background-image: url(../img/sfondo.png)
+    font-family 'Poppins', sans-serif;
+    font-size: 1.5rem;
+}
+
+.border-padding {
+    border: solid;
+    border-color: rgb(153, 152, 152);
+    border-width: 3px;
+    padding: 10px;
+}
+
+
+.maiuscolo {
+    text-transform: uppercase;
+}
+
+.bianco {
+    color: white;
+}
+
+header {
+background-color: rgb(44, 135, 163);
+background-size: 90px;
+}
+
+.centro {
+    text-align: center;
+}
+
+.grigio {
+    color:grey;
+}
+
+.viola {
+    color: rgb(157, 37, 168);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.sfondo-blu {
+    background-color: rgb(69, 104, 231);
+}
+
+.sfondo-grigio {
+    background-color: rgba(197, 197, 197, 0.758);
+}
+
+.tabella-centrata {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    width: 400px;
+    height: 300px;
+    border: solid;
+    border-width: 2px;
+    border-bottom-color: blue;
+}
+
+tr {
+    text-align: center;
+}
+
+thead, tfoot {
+    width: 50px;
+    height: 50px;
+}
