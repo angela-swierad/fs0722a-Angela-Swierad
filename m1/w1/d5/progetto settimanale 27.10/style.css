@@ -1,0 +1,139 @@
+body {
+    text-align: center;
+    color: #393d41;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;;
+    line-height: 1.65;
+}
+
+.sfondo-nero {
+    background-color: black;
+}
+
+#immagine-1 {
+    width: 150px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+.blu {
+    color:#25a2c3;
+}
+
+#font-h1 {
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.1;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.sfondo-immagine {
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.padding {
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.margin-b {
+    margin-bottom: 25px;
+}
+
+.maiuscolo {
+    text-transform: uppercase;
+}
+
+.button {
+    background-color: #f04c2f;
+    border:solid;
+    border-color: transparent;
+    border-radius: 4px;
+    border-width: 10px;
+    text-decoration: none;
+}
+
+#font-button {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.font-h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+
+.padding1 {
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-bottom: 20px;
+}
+
+#img-cerchio {
+    border-radius: 50%;
+    width: 300px;
+}
+
+.bianco {
+    color: white;
+}
+
+.sfondo-arancione {
+    background-color: #e22d0e;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#epi-gar, #contact {
+    font-size: 2.5rem;
+}
+
+.italic {
+    font-style: italic;
+}
+
+#ceo {
+    font-size: 1.6rem;
+}
+
+.font-h4 { 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem
+}
+
+.border {
+    border: solid;
+    border-width: 1px;
+    border-bottom-color: #dee1e3;
+    padding: 2px;
+}
+
+.w-img {
+    width: 100%;
+}
+
+#background-footer {
+    background-color: #25a2c3;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+#d-block, #d-block2 {
+    display: block;
+}
+
+#d-inline {
+    display: inline;
+}
+
+hr {
+    width: 180px;
+}
+

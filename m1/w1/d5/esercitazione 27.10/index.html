@@ -19,10 +19,10 @@
 <body>
     <header class="centro border-padding">
         <!--logo-->
-       <img src="/m1/w1/d5/esercitazione 27.10/assets/img/logo.svg" alt="logo epicode">
+       <img class="dimensione" src="/m1/w1/d5/esercitazione 27.10/assets/img/logo.svg" alt="logo epicode">
 
         <!--titolo sotto logo-->
-        <h1 class="maiuscolo bianco centro">epicode - il blog dei developers</h1>
+        <h5 class="maiuscolo bianco centro">epicode - il blog dei developers</h5>
 
         <!--navigazione-->
       <div class="centro">
@@ -54,17 +54,20 @@
     <p>Le varie aree saranno quindi suddivise in:</p>
 
     <!--lista aree-->
+    <!--lista non ordinata-->
     <ul>
         <li>Contenuti di intestazione del tag&lt header&gt</li>
         <li>Contenuti centrali variabili del tag &ltmain&gt (corpo principale)</li>
         <li>Contenuti di fine pagina comuni, da inserire nel tag &ltfooter&gt</li>
     </ul>
     </section>
-    
+
+    <!--sezione formattazione del codice-->
     <section>
     <p>Formattazione del codice <br>
     Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da <span class="viola bold">selezionare con i CSS</span>. Perciò i passi saranno:</p>
 
+    <!--lista ordinata-->
     <ol>
         <li>Progettare su carta il markup finale, assegnando ad ogni specifico testo il tag appropriato</li>
         <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso</li>
@@ -74,8 +77,9 @@
 
     <section>
     <p>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressoché totale.</p>
-  
-    <table class="tabella-centrata">
+
+    <!--tabella-->
+    <table class="tabella-centrata dimensione">
         <caption class="bold italic">Diffusione dei CSS</caption>
         <thead class="sfondo-blu bianco">
             <tr>
@@ -115,11 +119,20 @@
           </tfoot>
     </table>
 
-  </section>
+  </section>ù
+
+  <!--sezione video con descrizione-->
+  <section>
 
     <p>Un test di validazione potrà essere fatto tramite il <a href="#">tool online</a> dedicato allo scopo. Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come loro:</p>
 
-    <iframe width="415" height="275" src="https://www.youtube.com/embed/dvOvHXruEDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe class="dimensione" width="415" height="275" src="https://www.youtube.com/embed/dvOvHXruEDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  </section>
+
+
+  <!--sezione newsletter-->
+  <section>
 
   <form action="post">
 
@@ -129,20 +142,42 @@
       Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:
     </label>
 
-    <input type="email"> <button>Iscriviti!</button>
+    <input type="email" placeholder="inserisci l'email"> <button class="bianco">Iscriviti!</button>
+
+  </form>
+ 
+  <!--articoli correlati-->
+  </section>
 
     <h3 class="maiuscolo">articoli correlati</h3>
 
-    <a href="#">Validare il codice HTML</a> <br>
+  <div class="sfondo-grigio">
+    <a href="#">Validare il codice HTML</a>
+    <p>Categoria: ottimizzazione</p>
+    <p>Data:30-09-2020</p> 
+  </div>
 
-    <a href="#">Correggere la sintassi</a> <br>
+  <br>
 
+  <div class="sfondo-grigio">
+    <a href="#">Correggere la sintassi</a>
+    <p>Categoria: develop</p>
+    <p>Data:16-09-2020</p> 
+  </div> 
+
+  <br>
+
+  <div class="sfondo-grigio">
     <a href="#">Meno Kb nella pagina</a>
-  </form>
+    <p>Categoria: ottimizzazione</p>
+    <p>Data:30-09-2020</p>
+  </div>
+
  </main>
 
   <br>
 
+  <!--footer-->
  <footer class="border-padding">
   <dl>
     <dt class="centro">Blog Epicode &copy2021</dt>
@@ -150,5 +185,6 @@
     <a class="viola" href="mailto:info@epicode.school">info@epicode.school</a></dd>
   </dl>
  </footer>
+ 
 </body>
 </html>
