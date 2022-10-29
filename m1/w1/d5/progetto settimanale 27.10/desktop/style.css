@@ -1,0 +1,145 @@
+body {
+    text-align: center;
+    color: #393d41;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;;
+    line-height: 1.65;
+}
+
+/*background logo*/
+.sfondo-nero {
+    background-color: black;
+}
+
+/*posizionamento logo*/
+#immagine-1 {
+    width: 150px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    padding-right:900px;
+}
+
+/*colore headings*/
+.blu {
+    color:#25a2c3;
+}
+
+/*stile primo h1 pagina*/
+#font-h1 {
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.1;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/*stile immagine opaca*/
+.sfondo-immagine {
+    background-image: url(/images/banner.jpg);
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 110px;
+}
+
+
+/*margine per spazio tra headings e paragrafi*/
+.margin-b {
+    margin-bottom: 25px;
+}
+
+.maiuscolo {
+    text-transform: uppercase;
+}
+
+/*stile link bottone pagina */
+.button {
+    background-color: #f04c2f;
+    border:solid;
+    border-color: transparent;
+    border-radius: 4px;
+    border-width: 10px;
+    text-decoration: none;
+}
+
+/*font link bottone pagina*/
+#font-button {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+
+.font-h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+
+
+/*stile immagine nel cerchio*/
+#img-cerchio {
+    border-radius: 50%;
+    width: 300px;
+}
+
+.bianco {
+    color: white;
+}
+
+/*background testimonianza*/
+.sfondo-arancione {
+    background-color: #e22d0e;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*headings testimonianza e contattami*/
+#epi-gar, #contact {
+    font-size: 2.5rem;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/*font cite*/
+#ceo {
+    font-size: 1.6rem;
+}
+
+.font-h4 { 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem
+}
+
+
+/*stile immagini box*/
+.w-img {
+   width: 300px;
+   height: 200px;
+   padding-top: 20px;
+   padding: 10px;
+}
+
+#background-footer {
+    background-color: #25a2c3;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+/*gestione icone fontawesome*/
+#d-block, #d-block2 {
+    display: block;
+}
+
+.d-inline {
+    display: inline;
+}
+
+hr {
+    width: 180px;
+}
+
+a:hover {
+    color:rgb(249, 78, 255)
+}
