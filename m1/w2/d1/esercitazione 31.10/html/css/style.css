@@ -1,0 +1,19 @@
+body {
+    margin-left: 35%;
+}
+
+.logo {
+    width: 180px;
+}
+
+h1 {
+    color: rgb(236, 182, 4);
+}
+
+.margin {
+    margin-top: 20px;
+}
+
+a:hover {
+    color: rgb(255, 123, 0);
+}
